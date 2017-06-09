@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(void)creatAlertViewWith:(NSString*)title message:(NSString*)message actionCount:(NSInteger)actionCount;
 
 @end
 
